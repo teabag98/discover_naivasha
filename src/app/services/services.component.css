@@ -19,7 +19,7 @@
   
   .services #services-flters li:hover,
   .services #services-flters li.filter-active {
-    background: #47b2e4;
+    background: #586542;
     color: #fff;
   }
   
@@ -73,7 +73,7 @@
   
   .services .services-item .services-info .preview-link:hover,
   .services .services-item .services-info .details-link:hover {
-    color: #47b2e4;
+    color: #586542;
   }
   
   .services .services-item .services-info .details-link {
@@ -109,11 +109,11 @@
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #47b2e4;
+    border: 1px solid #586542;
   }
   
   .services-details .services-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #47b2e4;
+    background-color: #586542;
   }
   
   .services-details .services-info {
