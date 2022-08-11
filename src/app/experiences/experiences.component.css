@@ -21,7 +21,7 @@
     font-size: 24px;
   }
   
-  .experiences .icon-box h4 a {
+  .experiences .icon-box h4 a { 
     color: #37517e;
     transition: ease-in-out 0.3s;
   }
