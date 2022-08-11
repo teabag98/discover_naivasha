@@ -8,6 +8,9 @@ import { BodyComponent } from './body/body.component';
 import { DestinationsComponent } from './destinations/destinations.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
 import { ServicesComponent } from './services/services.component';
+import { EventsComponent } from './events/events.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ServicesComponent } from './services/services.component';
     BodyComponent,
     DestinationsComponent,
     ExperiencesComponent,
-    ServicesComponent, 
+    ServicesComponent,
+    EventsComponent,
+    FaqsComponent,
+    AuthenticationComponent, 
   ],
   imports: [
     BrowserModule,
