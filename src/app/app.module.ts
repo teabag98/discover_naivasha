@@ -11,6 +11,7 @@ import { ServicesComponent } from './services/services.component';
 import { EventsComponent } from './events/events.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { AuthenticationComponent } from './authentication/authentication.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +23,15 @@ import { AuthenticationComponent } from './authentication/authentication.compone
     ServicesComponent,
     EventsComponent,
     FaqsComponent,
-    AuthenticationComponent, 
+    AuthenticationComponent,
+    HomeComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
+  
+
   providers: [],
   bootstrap: [AppComponent]
 })
