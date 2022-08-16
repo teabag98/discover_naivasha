@@ -12,6 +12,8 @@ import { EventsComponent } from './events/events.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { AuthenticationComponent } from './authentication/authentication.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { eventService } from './events/events.service';
 
 @NgModule({
   declarations: [
@@ -24,15 +26,11 @@ import { HomeComponent } from './home/home.component';
     EventsComponent,
     FaqsComponent,
     AuthenticationComponent,
-    HomeComponent, 
+    HomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
 
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [eventService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
