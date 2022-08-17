@@ -13,11 +13,11 @@
       <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
         <div
           class="card text-white card-has-bg click-col"
-          style="background-image:url('https://media3.giphy.com/media/H7wxee1VYpAQFj9nc7/200w.webp?cid=ecf05e478nmz854gtxf4zlxcrb2v6w91wyxvf4jc3hop6ap1&rid=200w.webp&ct=g');"
+          style="background-image:url('{{ event.eventTags.tag_profile_url }}');"
         >
           <img
             class="card-img d-none"
-            src="https://media3.giphy.com/media/H7wxee1VYpAQFj9nc7/200w.webp?cid=ecf05e478nmz854gtxf4zlxcrb2v6w91wyxvf4jc3hop6ap1&rid=200w.webp&ct=g"
+            src="{{ event.eventTags.tag_profile_url }}"
             alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
           />
           <div class="card-img-overlay d-flex flex-column">
@@ -29,7 +29,9 @@
               <small class="card-meta mb-2">Pricing: Ksh 12,064</small>
 
               <h4 class="card-title mt-0">
-                <a class="text-white" herf="#">Witness Greate zebra families</a>
+                <a class="text-white" herf="#">{{
+                  event.eventTags.tag_overlay_text
+                }}</a>
               </h4>
               <small><i class="far fa-clock"></i> Nov 15, 2022</small>
             </div>
