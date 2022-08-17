@@ -9,7 +9,7 @@
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row" *ngFor="let event of allEvents">
       <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
         <div
           class="card text-white card-has-bg click-col"
@@ -22,7 +22,10 @@
           />
           <div class="card-img-overlay d-flex flex-column">
             <div class="card-body">
-              <small class="card-meta mb-2">Venue: Hells Gate</small> <br />
+              <small class="card-meta mb-2"
+                >venue : {{ event.event_location_name }}</small
+              >
+              <br />
               <small class="card-meta mb-2">Pricing: Ksh 12,064</small>
 
               <h4 class="card-title mt-0">
