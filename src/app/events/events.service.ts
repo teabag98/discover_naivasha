@@ -5,7 +5,6 @@ import { Observable } from 'rxjs';
 @Injectable()
 export class eventService {
 
- 
 
   constructor(private httpClient: HttpClient){};
 
